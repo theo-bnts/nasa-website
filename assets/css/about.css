@@ -1,0 +1,56 @@
+.container {
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+}
+.rounded {
+    border-radius: 5px;
+}
+.article-container {
+    background-color: #1c1b29;
+    opacity: 90%;
+    margin: 3%;
+    padding: 3%;
+    display: flex;
+}
+.article-image {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+}
+.article-text {
+    color: whitesmoke;
+    margin-left: 3%;
+    text-align: justify;
+}
+.article-title {
+    color: whitesmoke;
+    font-size: xxx-large;
+    margin: 0;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-icon {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+@media (max-width:900px) {
+    .container {
+        width: 95%;
+    }
+    .article-container {
+        flex-direction: column;
+    }
+    .article-text {
+        margin-left: 0;
+    }
+}

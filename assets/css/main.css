@@ -1,0 +1,109 @@
+::-webkit-scrollbar {
+    background-color:#2b293f;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #363542;
+}
+::selection {
+    color: white;
+    background: #c5bb2c;
+}
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Light.ttf');
+}
+
+
+
+html, body {
+    margin: 0;
+    background-color: #1c1b29;
+    background-image: url('../images/background.jpg');
+    font-family: 'Poppins';
+}
+
+
+
+.navbar {
+    background-color: #1c1b29;
+    overflow: hidden;
+}
+.navbar-icon {
+    float: left;
+    height: 25px;
+    padding: 15px;
+}
+.navbar-item {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar-item:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar-item.active {
+    background-color: #c5bb2c;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #1c1b29;
+    color: lightslategrey;
+}
+.footer {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+.footer-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 1%;
+}
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    margin-left: 3%;
+    width: 15%;
+}
+.footer-column-title {
+    margin-bottom: 2%;
+}
+.with-icon {
+    width: 30%;
+}
+.footer-line {
+    display: flex;
+}
+.yellow {
+    color: #c5bb2c;
+    text-decoration: none;
+}
+.yellow:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+@media (max-width:900px) {
+    .navbar-icon {
+        display: none;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-column {
+        width: 94%;
+    }
+}

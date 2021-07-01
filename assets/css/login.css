@@ -1,0 +1,42 @@
+.container {
+    margin: 10%;
+    padding: 5%;
+    background-color: #1c1b29;
+    opacity: 90%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label {
+    color: whitesmoke;
+}
+
+button, input {
+    border: 0;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.form-control {
+    width: 75%;
+    max-width: 500px;
+}
+
+button {
+    width: 200px;
+    background-color: #383fff;
+    color: whitesmoke;
+    margin: 7.5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 3%;
+}

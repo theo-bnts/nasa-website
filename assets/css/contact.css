@@ -1,0 +1,52 @@
+.container {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding: 5%;
+    background-color: #1c1b29;
+    opacity: 90%;
+    border-radius: 5px;
+    text-align: center;
+    width: 75%;
+    max-width: 500px;
+}
+
+label {
+    color: whitesmoke;
+}
+
+button, input, textarea {
+    border: 0;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-family: 'Poppins';
+}
+
+.form-control {
+    width: 95%;
+}
+
+button {
+    width: 200px;
+    background-color: #383fff;
+    color: whitesmoke;
+    margin: 7.5px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 3%;
+}
+
+@media (min-width:900px) {
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        width: 97%;
+    }
+}

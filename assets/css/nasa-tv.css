@@ -1,0 +1,42 @@
+.global-container {
+    text-align: center;
+}
+
+.viewer {
+    width: 70vw;
+    max-width: 1280px;
+    height: 39.375vw;
+    max-height: 720px;
+    margin: 2%;
+}
+
+table {
+    width: 70vw;
+    margin: auto;
+    max-width: 1280px;
+    margin-bottom: 2%;
+    border-collapse: collapse;
+    color: white;
+    background-color:  #393846;
+    opacity: 90%;
+}
+td, th {
+    border: 1px solid #fff4;
+    text-align: left;
+    padding: 6px;
+}
+tr:nth-child(even) {
+    background-color: #1c1b29;
+}
+
+
+
+@media (max-width:900px) {
+    .viewer {
+        width: 90vw;
+        height: 50.75vw;
+    }
+    table {
+        width: 90vw;
+    }
+}
